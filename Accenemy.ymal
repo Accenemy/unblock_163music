@@ -73,16 +73,13 @@ proxies:
   type: http
   server: 82.156.188.212
   port: 8180
-   
-    
-    
+  
   - name: 🎵 解锁节点(Android/PC)2
   type: http
   server: 34.92.228.82
   port: 80
     
-    
-    proxy-groups:
+ proxy-groups:
   - name: UnblockNeteaseMusic
     type: select
     proxies: 
