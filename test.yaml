@@ -83,7 +83,8 @@ proxy-groups:
   - name: UnblockNeteaseMusic
     type: select
     proxies: 
-      - 🎵 解锁节点
+      - 🎵 解锁节点(Android/PC)one
+      - 🎵 解锁节点(Android/PC)two
 
 rules:
 # 自定义规则
