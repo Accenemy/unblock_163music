@@ -77,7 +77,7 @@ proxies:
   - name: 🎵 解锁节点(Android/PC)two
     type: http
     server: 34.92.228.82
-    port: 80
+    port: 2001
 
 proxy-groups:
   - name: UnblockNeteaseMusic
