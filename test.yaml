@@ -69,22 +69,22 @@ proxies:
 # clash 额外支持 chacha20 rc4-md5 xchacha20-ietf-poly1305 加密方式
 
 #  http
-  - name: 🎵 解锁节点(Android/PC)one
+  - name: 🎵 解锁节点Android/PC
     type: http
     server: 82.156.188.212
     port: 8180
     
-  - name: 🎵 解锁节点(Android/PC)two
+  - name: 🎵 解锁节点IOS
     type: http
-    server: 34.92.228.82
-    port: 2001
+    server: 82.156.188.212
+    port: 8182
 
 proxy-groups:
   - name: UnblockNeteaseMusic
     type: select
     proxies: 
-      - 🎵 解锁节点(Android/PC)one
-      - 🎵 解锁节点(Android/PC)two
+      - 🎵 解锁节点Android/PC
+      - 🎵 解锁节点IOS
 
 rules:
 # 自定义规则
