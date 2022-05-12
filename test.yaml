@@ -75,7 +75,7 @@ proxies:
     port: 8182
     
   - name: 🎵 解锁节点IOS
-    type: http
+    type: https
     server: 82.156.188.212
     port: 8184
 
